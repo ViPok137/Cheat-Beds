@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Cheat Beds</name>
+    <packageId>ViPok.CheatBeds</packageId>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <modVersion>1.0</modVersion>
+    <authors>
+        <li>Vi_Pok</li>
+    </authors>
+    <description>
+		This mod introduces advanced experimental beds that dramatically surpass normal medical and rest technology.
+    </description>
+</ModMetaData>

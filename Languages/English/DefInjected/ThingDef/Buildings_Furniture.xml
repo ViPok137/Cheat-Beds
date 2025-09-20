@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CheatBed_Single.label>cheat bed</CheatBed_Single.label>
+  <CheatBed_Single.description>An experimental single-occupant rest platform integrating neuromechanical feedback and adaptive bioscanning. The system induces rapid sleep onset via gentle oscillation and synchronized neural signals. During treatment, it performs full-spectrum analysis of the patient and transmits a precise anatomical projection into the surgeon’s visual cortex, reducing error margin to near zero.</CheatBed_Single.description>
+
+  <CheatBed_Double.label>double cheat bed</CheatBed_Double.label>
+  <CheatBed_Double.description>A dual-occupant neuro-somatic recovery unit. Incorporates synchronized rocking mechanisms, cortical resonance induction, and deep bioscanning arrays. When used in medical procedures, the bed overlays a full diagnostic reconstruction into the surgeon’s visual cortex, allowing for unprecedented surgical precision. Supports simultaneous treatment of two patients under identical conditions.</CheatBed_Double.description>
+
+
+</LanguageData>

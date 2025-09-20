@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+  <ThingDef ParentName="Bed">
+    <defName>CheatBed_Single</defName>
+    <label>cheat bed</label>
+    <description>An experimental single-occupant rest platform integrating neuromechanical feedback and adaptive bioscanning. The system induces rapid sleep onset via gentle oscillation and synchronized neural signals. During treatment, it performs full-spectrum analysis of the patient and transmits a precise anatomical projection into the surgeon’s visual cortex, reducing error margin to near zero.</description>
+    <graphicData>
+      <texPath>VI/Furniture/Bed</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,2)</drawSize>
+    </graphicData>
+    <uiIconPath>VI/Furniture/Bed</uiIconPath>
+    <size>(1,2)</size>
+    <passability>PassThroughOnly</passability>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <statBases>
+      <MaxHitPoints>5000</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Flammability>0</Flammability>
+      <Beauty>100</Beauty>
+      <BedRestEffectiveness>10000</BedRestEffectiveness>
+      <ImmunityGainSpeedFactor>10000</ImmunityGainSpeedFactor>
+      <Mass>50</Mass>
+    </statBases>
+
+    <building>
+      <bed_humanlike>true</bed_humanlike>
+      <bed_maxBodySize>2</bed_maxBodySize>
+    </building>
+    <designationCategory>Furniture</designationCategory>
+    <costStuffCount>0</costStuffCount>
+    <comps/>
+  </ThingDef>
+
+  <ThingDef ParentName="DoubleBed">
+    <defName>CheatBed_Double</defName>
+    <label>double cheat bed</label>
+    <description>A dual-occupant neuro-somatic recovery unit. Incorporates synchronized rocking mechanisms, cortical resonance induction, and deep bioscanning arrays. When used in medical procedures, the bed overlays a full diagnostic reconstruction into the surgeon’s visual cortex, allowing for unprecedented surgical precision. Supports simultaneous treatment of two patients under identical conditions.</description>
+    <graphicData>
+      <texPath>VI/Furniture/DoubleBed</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <uiIconPath>VI/Furniture/DoubleBed</uiIconPath>
+    <size>(2,2)</size>
+    <passability>PassThroughOnly</passability>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <statBases>
+      <MaxHitPoints>8000</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Flammability>0</Flammability>
+      <Beauty>200</Beauty>
+      <BedRestEffectiveness>10000</BedRestEffectiveness>
+      <ImmunityGainSpeedFactor>10000</ImmunityGainSpeedFactor>
+      <Mass>100</Mass>
+    </statBases>
+    
+    <building>
+      <bed_humanlike>true</bed_humanlike>
+      <bed_maxBodySize>2</bed_maxBodySize>
+    </building>
+    <designationCategory>Furniture</designationCategory>
+    <costStuffCount>0</costStuffCount>
+    <comps/>
+  </ThingDef>
+
+</Defs>
