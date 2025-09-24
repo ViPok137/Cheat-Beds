@@ -12,6 +12,7 @@
       <drawSize>(1,2)</drawSize>
     </graphicData>
     <uiIconPath>VI/Furniture/Bed</uiIconPath>
+	<tickerType>Normal</tickerType>
     <size>(1,2)</size>
     <passability>PassThroughOnly</passability>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
@@ -31,8 +32,12 @@
     </building>
     <designationCategory>Furniture</designationCategory>
     <costStuffCount>0</costStuffCount>
-    <comps/>
-  </ThingDef>
+	<comps>
+	  <li>
+		<compClass>DivineBedMod.CompCheatBed</compClass>
+	  </li>
+	</comps>
+</ThingDef>
 
   <ThingDef ParentName="DoubleBed">
     <defName>CheatBed_Double</defName>
@@ -43,6 +48,7 @@
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(2,2)</drawSize>
     </graphicData>
+	<tickerType>Normal</tickerType>
     <uiIconPath>VI/Furniture/DoubleBed</uiIconPath>
     <size>(2,2)</size>
     <passability>PassThroughOnly</passability>
@@ -63,7 +69,12 @@
     </building>
     <designationCategory>Furniture</designationCategory>
     <costStuffCount>0</costStuffCount>
-    <comps/>
+
+	<comps>
+	  <li>
+		<compClass>DivineBedMod.CompCheatBed</compClass>
+	  </li>
+	</comps>
   </ThingDef>
 
 </Defs>
